@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Sanctuary - Kristen D Project 1</title>
     <link rel="stylesheet" href="assets/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Offside&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Offside&display=swap"
+        rel="stylesheet">
     <script src="https://kit.fontawesome.com/ad4f31f59a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -17,15 +18,16 @@
             <section class="header-txt-nav clearfix">
                 <a href="#">Panda Sanctuary</a>
                 <nav class="header-nav">
+                    <a class="hamburger-menu" href="#"><span class="fa fa-bars" aria-label="menu icon"></a></span>
                     <ul class="clearfix">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
             </section>
-            
+
             <!-- Heading and social links-->
             <section class="header-heading clearfix">
                 <h1>A safe and loving place for all pandas</h1>
@@ -39,27 +41,26 @@
 
         </div>
     </header>
-    
+
     <!-- Main content -->
-    <main>       
+    <main>
         <!-- Park info section -->
-        <section class="park-info-section">
+        <section class="about-section" id="about">
             <div class="wrapper">
-                <section class="park-info-1">
+                <section class="about-1">
                     <h2 class="green-title center-title">Our New Friends</h2>
-                    <ul class="park-info-imgs clearfix">
+                    <ul class="about-1-imgs clearfix">
                         <li><img src="./assets/gallery-image-1@2x.png" alt="Closeup of panda eating plant"></li>
                         <li><img src="./assets/gallery-image-2@2x.png" alt="Closeup of panda profile"></li>
                         <li><img src="./assets/gallery-image-3@2x.png" alt="Closeup of two pandas embracing"></li>
                     </ul>
                 </section>
-                
 
-                <section class="park-info-2 clearfix">
-                    <img class="park-info-bear" src="./assets/small-box@2x.png" alt="Panda climbing tree branch">
-                    
+                <section class="about-2 clearfix">
+                    <img class="about-2-imgs" src="./assets/small-box@2x.png" alt="Panda climbing tree branch">
+
                     <div class="wrapper clearfix">
-                        <section class="park-info-txt">
+                        <section class="about-2-txt">
                             <h2 class="green-title">More about our park</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, earum ea cum aspernatur velit veritatis cumque magnam eaque aut recusandae repudiandae excepturi consequuntur commodi perferendis sint asperiores, delectus nulla sunt? Iure nobis saepe eveniet natus cumque culpa! A, aut eius, numquam, quos et magni molestiae error reiciendis quidem excepturi nostrum. Animi esse dolorem quod blanditiis suscipit ex voluptates deleniti eius dolorum rerum assumenda, quidem ducimus accusantium odit neque delectus, possimus exercitationem porro consequatur sequi iusto.</p>
                             <a class="button green-button" href="#">read more</a>
@@ -71,33 +72,40 @@
         </section>
 
         <!-- Featured pandas section -->
-        <section class="pandas-container clearfix">
-            
+        <section class="blog-container clearfix" id="blog">
+
             <!-- Pandas section 1 -->
-            <img class="pandas-1-img" src="./assets/pascal-muller-4-eaj-iu-uxg-aq-unsplash@2x.png" alt="Two pandas lying down side by side">
-            
+            <img class="blog-1-img" src="./assets/pascal-muller-4-eaj-iu-uxg-aq-unsplash@2x.png"
+                alt="Two pandas lying down side by side">
+
             <div class="wrapper clearfix">
-                <section class="pandas-1-txt ">
+                <section class="blog-1-txt">
                     <h2 class="white-title">Bobby and Bella</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolore autem officia quisquam nemo adipisci, ipsam tempore sint, dolor esse voluptatum beatae temporibus, voluptatibus eaque animi! Sed placeat at voluptatem, minus esse ipsum repudiandae dignissimos perferendis deleniti odit nisi assumenda ex voluptates debitis maiores consequatur.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolore autem officia quisquam nemo
+                        adipisci, ipsam tempore sint, dolor esse voluptatum beatae temporibus, voluptatibus eaque animi!
+                        Sed placeat at voluptatem, minus esse ipsum repudiandae dignissimos perferendis deleniti odit
+                        nisi assumenda ex voluptates debitis maiores consequatur.</p>
                     <a class="button white-button" href="#">read more</a>
                 </section>
             </div>
-            
+
             <!-- Pandas section 2 -->
-            <img class="pandas-2-img" src="./assets/debbie-molle-6-dsid-8-ey-9-u-unsplash-1@2x.png"
+            <img class="blog-2-img" src="./assets/debbie-molle-6-dsid-8-ey-9-u-unsplash-1@2x.png"
                 alt="Closeup of panda eating plant">
-            
+
             <div class="wrapper clearfix">
-                <div class="pandas-2-txt">
+                <div class="blog-2-txt">
                     <h2 class="white-title">Look at Marco now</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cumque voluptatem sit. Assumenda, exercitationem in optio magnam excepturi eum ab et perferendis autem repudiandae vero sit libero voluptate fugiat asperiores numquam voluptatibus maxime repellat impedit! Dolores incidunt officia corporis quibusdam quod quisquam laborum minus at!
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cumque voluptatem sit. Assumenda,
+                        exercitationem in optio magnam excepturi eum ab et perferendis autem repudiandae vero sit libero
+                        voluptate fugiat asperiores numquam voluptatibus maxime repellat impedit! Dolores incidunt
+                        officia corporis quibusdam quod quisquam laborum minus at!
                     </p>
                     <a class="button white-button" href="#">read more</a>
                 </div>
             </div>
         </section>
-        
+
         <!-- More details section -->
         <section class="more-details-container">
             <ul class="more-details-section wrapper clearfix">
@@ -117,7 +125,7 @@
         </section>
 
     </main>
-        
+
     <!-- Footer section -->
     <footer>
         <div class="wrapper">
@@ -137,9 +145,12 @@
                 </section>
 
                 <!-- Contact section -->
-                <section class="contact-section">
+                <section class="contact-section" id="contact">
                     <h4>Contact</h4>
-                    <p>info@email.com 123 - 456 - 7890</p>
+                    <div class="clearfix">
+                        <p class="contact-txt-1">info@email.com</p>
+                        <p class="contact-txt-2">123 - 456 - 7890</p>
+                    </div>
                     <p>123 some road, Toronto, ON</p>
                     <p>A5A 5A5, Canada</p>
                 </section>
@@ -154,13 +165,14 @@
                     </ul>
                 </nav>
 
-            </div>   
+            </div>
         </div>
     </footer>
 
     <!-- Copyright section -->
     <section class="juno-copyright">
-        <p>&#169 2020 Juno College of Technology</p>
+        <p>Copyright &#169 2020 Juno College of Technology</p>
     </section>
 </body>
+
 </html>
