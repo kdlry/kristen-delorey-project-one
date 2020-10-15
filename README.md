@@ -1,6 +1,6 @@
 # -Description-
 
-Responsive PSD design conversion. Assets and style guide provided.
+Responsive PSD design conversion using html5 and css3. Assets and style guide were provided.
 
 # -Live Link-
 
